@@ -1,0 +1,24 @@
+Public key
+
+cat ~/.ssh/id_ed22519.pub
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGkFMFZBcpmLj/bwHaBChgDFJnVxY/oDCrcnEVe8Msje nhut.cao@aalto.fi
+
+Copy public key to other machine
+#!/usr/bin/env bash
+
+cat >> ~/.ssh/authorized_keys <<EOL
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGkFMFZBcpmLj/bwHaBChgDFJnVxY/oDCrcnEVe8Msje nhut.cao@aalto.fi     
+EOL
+
+Within lab1/lab2: Use ssh 10.0.2.1x (4/5/6) to ssh to another VM
+
+
+section 2:
+1. Use ip link show up
+2. First use ip route show default => arp -n 10.0.2.1 => 52:54:00:12:35:00 
+3. Use cat /etc/resolv.conf | grep nameserver => nameserver 127.0.0.53
+"dig": This command requests the authoritative name servers (NS records) for the specified domain (cs.hut.fi). The output will include a list of name servers responsible for the domain.
+4. Use dig +short NS cs.hut.fi => ns.niksula.hut.fi.    sauna.cs.hut.fi.
+5. Use dig cs.hut.fi +short MX => 1 mail.cs.hut.fi.
+
+

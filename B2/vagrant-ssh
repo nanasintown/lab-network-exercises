@@ -1,0 +1,41 @@
+Host lab1
+  HostName 127.0.0.1
+  User vagrant
+  Port 2222
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+  PasswordAuthentication no
+  IdentityFile "/Users/mac/Aalto Courses/LabNetwork/B2/.vagrant/machines/lab1/virtualbox/private_key"
+  IdentitiesOnly yes
+  LogLevel FATAL
+  PubkeyAcceptedKeyTypes +ssh-rsa
+  HostKeyAlgorithms +ssh-rsa
+
+Host lab2
+  HostName 127.0.0.1
+  User vagrant
+  Port 2200
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+  PasswordAuthentication no
+  IdentityFile /Users/mac/.vagrant.d/insecure_private_keys/vagrant.key.ed25519
+  IdentityFile /Users/mac/.vagrant.d/insecure_private_keys/vagrant.key.rsa
+  IdentitiesOnly yes
+  LogLevel FATAL
+  PubkeyAcceptedKeyTypes +ssh-rsa
+  HostKeyAlgorithms +ssh-rsa
+
+Host lab3
+  HostName 127.0.0.1
+  User vagrant
+  Port 2201
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+  PasswordAuthentication no
+  IdentityFile /Users/mac/.vagrant.d/insecure_private_keys/vagrant.key.ed25519
+  IdentityFile /Users/mac/.vagrant.d/insecure_private_keys/vagrant.key.rsa
+  IdentitiesOnly yes
+  LogLevel FATAL
+  PubkeyAcceptedKeyTypes +ssh-rsa
+  HostKeyAlgorithms +ssh-rsa
+
