@@ -1,0 +1,1 @@
+{"disk":[{"uuid":"56142743-36f5-428b-b069-e5b43545f0df","name":"raidDisk1","controller":"SCSI","port":"2","device":"0"},{"uuid":"c3a167ba-da6a-45aa-9368-7f4292939e64","name":"raidDisk2","controller":"SCSI","port":"3","device":"0"},{"uuid":"32bb0901-b84b-4a62-b6a6-0a61fc91c602","name":"raidDisk3","controller":"SCSI","port":"4","device":"0"}],"floppy":[],"dvd":[]}
