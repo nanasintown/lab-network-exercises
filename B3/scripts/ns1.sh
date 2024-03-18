@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-
-
-
 cat >> ~/.ssh/config <<EOL
 Host ns2
     AddKeysToAgent yes

@@ -7,8 +7,6 @@ sudo adduser --disabled-password --gecos "" --uid 1002 testuser2
 
 sudo -u testuser1 mkdir /home/testuser1/.ssh
 
-
-
 sudo -u testuser1 tee -a /home/testuser1/.ssh/config <<EOL
 Host lab1
     AddKeysToAgent yes

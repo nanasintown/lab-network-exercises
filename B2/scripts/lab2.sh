@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-
 sudo apt install -y apache2
 
 sudo openssl req -x509 -batch -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/lab2.key -out /etc/ssl/certs/lab2.pem
